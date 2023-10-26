@@ -1,0 +1,54 @@
+ssl= secure socket layer
+ssl and tls handshake= exchange secure key for data exchange
+SSH=secure shell || port 22 || remote login
+Http=
+IAC=infrasturucture as a code || terraform and cloudformation
+Containerization=Docker, kubernetes || diffrence=(docker=package and isolate app and the dependencies)and (kubernetes=manage the desired state of containers)
+
+manage configuration =Configuration management keeps you from making small or large changes that go undocumented.|| tools=puppet,chef,ansible
+
+Continuous integration=Continuous integration refers to the build and unit testing stages of the software release process.|| tools=jenkins,gitlab,travisCI
+
+CD=every change that passes all stages of your production pipeline is released to your customers. || tools=AWS Code Pipeline,gitlab,jenkins
+
+Deployment=DevOps deployment tools are not a tool but a practice.|| testing->staging->production
+
+observablity=help Dev and Ops teams to log, collect, correlate, and analyze massive amounts of performance data from a distributed application and glean real-time insights.|| Prometheus, kibana, splunk
+
+cloud provider=gcp,azure,aws
+
+Linux server software package management ( YUM and APT with repo management ) ||For Debian / Ubuntu: .deb packages installed by apt and dpkg,For Rocky / Fedora / RHEL: .rpm packages installed by yum,For FreeBSD(berekely software distribution): .txz packages installed by pkg
+
+
+user permission = -=file,d=directory || 0 = No Permission,1 = Execute,2 = Write,4 = Read
+
+file discriptor=>0=Represents standard input,1	Represents standard output,2=Presents standard error.
+
+user management=useradd,passwd,userdel,addgroup,delgroup,usermod,chage,sudo.||/etc/passwd,/etc/shadow,/etc/group,/etc/sudoers
+
+storageManagement=lsblk,df -hT(mount points)
+
+git=global information tracker
+
+logfile=timestamp,user information,event information || log management=(challnge=1.volume,2.standerization,3.Digital transformation)||journalctl
+
+DNS server=(4=DNS recursor,root,tld(top level domain),authritative
+
+webserver=apache,microsoft internet information,nginx,lighttpd,sun java system web server|| nginx is fast then apache
+
+http response=informational,successful,redirection,client,server
+
+sed=Sed is a command-line utility that processes text line by line and allows you to perform various operations like search, replace, insert, delete, and more || sed options 'commands' input_file
+
+osi layer=A P S T N D P
+
+bashscript=(#!=shebang),
+
+docker=(advantage=Consistent & Isolated Environment,Rapid Application Deployment ,
+
+docker components=client(build,pull,run),host(container ,image),resistery(apache,ngnix,oracle)
+docker file=read only file with bunch of instruction
+docker networking=bridge,host,overlay,none
+docker registry=ecr(amazon elastic container registery, docker hub
+docker storage=data volume,directory mounts,storage plugins
+docker volume=
